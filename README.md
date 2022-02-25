@@ -38,6 +38,10 @@ cd leaf-segmentation && python3 test.py
 
 + GPLv3. See the COPYING file for details.
 
+## References
+
+[stackoverflow segmentation problem](https://stackoverflow.com/questions/54723141/segmentation-problem-for-tomato-leaf-images-in-plantvillage-dataset#54726481)
+
 ## Sample Output from Google Colab
 
 ```
