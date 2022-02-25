@@ -4,35 +4,39 @@ A leaf segmentation algorithm written in Python3 using OpenCV
 
 ## Requirements
 
++ Git
 + Python3
 + Numpy
 + OpenCV
 + Scipy
 
-## Installing Requirements
+## Usage
 
-+ For Debian/Ubuntu
+1. Install requirements
 
+> For Debian/Ubuntu
 ```
-sudo apt install python3-opencv python3-scipy python3-numpy
-```
-
-+ For Fedora
-
-```
-sudo dnf install python3-opencv python3-scipy python3-numpy
+sudo apt install python3-opencv python3-scipy python3-numpy git
 ```
 
-+ For Google Colab
+> For Fedora
 ```
-pip install opencv-python numpy scipy
+sudo dnf install python3-opencv python3-scipy python3-numpy git
+```
+
+2. Clone this repo
+```
+git clone https://github.com/oguztoraman/leaf-segmentation
+```
+
+3. Run test.py
+```
+cd leaf-segmentation && python3 test.py
 ```
 
 ## License
 
 + GPLv3. See the COPYING file for details.
-
----
 
 ## Sample Output from Google Colab
 
