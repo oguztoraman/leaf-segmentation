@@ -30,8 +30,8 @@ class leaf_segmentation:
     otsu_threshold_min = 0
     otsu_threshold_max = 255
     
-    structurel_element = cv2.MORPH_RECT
-    structurel_element_size = (15, 15)
+    structuring_element = cv2.MORPH_RECT
+    structuring_element_size = (15, 15)
     
     def __init__(self, rgb_folder, segmented_folder, image_count):
         self.m_rgb_folder = str(rgb_folder)
@@ -94,8 +94,8 @@ class leaf_segmentation:
         return mask
         
     def improve_mask(self, mask):
-        SE = cv2.getStructuringElement(self.structurel_element,
-                                       self.structurel_element_size)
+        SE = cv2.getStructuringElement(self.structuring_element,
+                                       self.structuring_element_size)
         mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, SE)
         return ndimage.binary_fill_holes(mask) 
     
