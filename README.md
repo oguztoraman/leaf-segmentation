@@ -1,6 +1,8 @@
 # Leaf Segmentation
 
-A leaf segmentation algorithm written in Python3 using OpenCV
+A leaf segmentation algorithm written in Python3 using OpenCV.
+In order to segment leaves from background, Otsu's threshold algorithm was used.
+To improve Otsu's performance both pre-processing and post porcessing operations were also used.
 
 ## Requirements
 
