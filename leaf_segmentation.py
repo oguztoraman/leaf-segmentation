@@ -1,6 +1,6 @@
 #/bin/python3
 #
-#  project.py
+#  leaf_segmentation.py
 #
 #  Copyright 2022-2023 Oğuz Toraman <oguz.toraman@protonmail.com>
 #
