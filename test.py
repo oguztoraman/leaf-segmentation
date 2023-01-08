@@ -1,6 +1,6 @@
 #/bin/python3
 
-import project
+import leaf_segmentation
 
-leafs = project.leaf_segmentation('./rgb', './segmented', 20)
+leafs = leaf_segmentation.leaf_segmentation('./rgb', './segmented', 20)
 leafs.segment()
